@@ -11,4 +11,16 @@ function Banner() {
   );
 }
 
+// function Banner({ children }) {
+//   return (
+//     <div className="lmj-banner">
+//       {children}
+//       <Banner>
+//         <img src={logo} alt="La maison jungle" />
+//         <h1 className="lmj-title">La maison jungle</h1>
+//       </Banner>
+//     </div>
+//   );
+// }
+
 export default Banner;
